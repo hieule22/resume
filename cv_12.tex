@@ -1,0 +1,256 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Hieu}{Le}{ % Your name
+\urlstyle{same}\url{hieule22.github.io} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:htl5683@truman.edu}{htl5683@truman.edu} | 660.525.4999 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{Truman State University}
+
+\descript{B.A. in Mathematics}
+\descript{B.Sc. in Computer Science}
+President's List (all semesters) \\
+\location{Expected May 2018 | Kirksville, MO \\ Cum. GPA: 4.0/4.0}
+\sectionspace % Some whitespace after the section
+
+\subsection{ACS (Independent)}
+\descript{IB Diploma Programme}
+A*STAR Outstanding Scholar \\
+Dean's List (3 subjects) \\
+\location{Graduated Dec 2013 | Singapore \\
+IBDP Score: 44/45}
+\sectionspace % Some whitespace after the section
+
+\subsection{Societies}
+Association of Computing Machinery \\
+Truman State Free Software Club \\
+Truman State Arduino Club \\
+Kappa Epsilon Mu
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\sectionspace % Some whitespace after the section
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Languages}
+
+\location{Core:}
+Java \textbullet{} Python \textbullet{} C++\\ 
+\location{Familiar:}
+C \textbullet{} JavaScript/ CSS/ HTML \textbullet{} \LaTeX \textbullet{} SQL Bash \textbullet{} Ada \textbullet{} Haskell \textbullet{} Mathematica
+\sectionspace
+%------------------------------------------------
+
+\subsection{Technologies}
+Git \textbullet{} Subversion \textbullet{} GDB/ LLDB \textbullet{} Emacs Bazel \textbullet{} Protocol Buffers \textbullet{} Python Django Spring MVC \textbullet{} Maven 
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+
+Compilers \\
+Database Systems \\
+Data Structures and Algorithms \\
+Parallel and Distributed Processing \\
+Computer Architecture \\
+Systems Programming \\
+Discrete Mathematics \\
+Theory of Numbers \\
+Linear Algebra \\
+Multivariate Calculus
+
+\sectionspace % Some whitespace after the section
+
+\subsection{MOOC}
+
+The Data Scientist's Toolbox | Coursera \\
+Automata | Coursera \\
+Web Developer Skills | Codecademy \\
+Digital Circuits | edX \\
+Computation Structures | edX
+
+\sectionspace
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{Google}
+\descript{| Engineering Practicum Intern}
+
+\location{May 2016 – Aug 2016 | Mountain View, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Implemented type schema support for one of Google's largest distributed data processing systems. Enabled 3 internal debugging tools to parse and deduce type for arbitrary protocol buffers. Introduced smarter SQL-based repository filtering logic with improved flexibility and type safety. 
+\item Contributed 3000 lines of C++ to Google codebase. Released features for production use by over 100 Google employees. Refactored and increased test coverage for existing modules via extensive benchmarking, unit and load tests.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{FPT Telecom}
+\descript{| Software Engineer Intern}
+
+\location{May 2015 – Aug 2015 | Hanoi, Vietnam}
+\begin{tightitemize}
+\item Designed data loss prevention tool that identifies sensitive data at rest from bank servers. Integrated Perl-compatible regular expressions and Luhn algorithm to expedite detection and validation of unencrypted credit card data.
+\item Created text parser capable of extracting raw content and metadata from over 50 file extensions to accelerate PCREs-based pattern matching.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Center of Academic Excellence}
+\descript{| Programming Tutor}
+
+\location{Aug 2015 – May 2016 | Kirksville, MO}
+\begin{tightitemize}
+\item Provided assistance for 30 students in Java/ Ada/ C++ programming. 
+\item Recruited, coached and prepared problem sets for Truman's ICPC team.
+\item Designed a tutor scheduling application in Python for Mathematics department that leverages network flow maximization and simulated annealing.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+%------------------------------------------------
+% Awards
+%------------------------------------------------
+
+\section{Awards} 
+
+\begin{tabular}{rll}
+2016 & Top 5 Percent & Google Code Jam\\
+2016 & Runner-up & Truman ACM Hackathon\\
+2015 & Bronze Medal & ACM International Collegiate Programming Contest\\
+2015 & Winner & Truman ACM Coding Competition\\
+2015 & First Place & booking.com Hackathon \\
+2015 & Semi Finalist & Hackerrank University World Cup\\
+2016 & Distinction & The Mathematical Contest in Modeling \\
+2015 & School Winner & Putnam Mathematical Competition\\
+2015 & Third Place & Missouri Collegiate Mathematics Competition \\
+2013 & Top 25 & Harvard - MIT Mathematics Tournament
+\end{tabular}
+
+\sectionspace % Some whitespace after the section
+%------------------------------------------------
+% Scholarships
+%------------------------------------------------
+
+\section{Scholarships} 
+
+\begin{tabular}{rll}
+2016 & Cody Sumter Computer Science Scholarship (1 of 4 recipients)\\
+2016 & President's Honorary Scholarship (first international recipient)\\
+2014 & International Baccalaureate Scholarship
+\end{tabular}
+
+\sectionspace % Some whitespace after the section
+%------------------------------------------------
+% Projects
+%------------------------------------------------
+
+\section{Projects}
+
+\runsubsection{Contest Wizard}
+\descript{| C++ \textbullet{} Python}
+Command-line utility that allows competitive programmers to crawl problems from various online judges, automate bulk tests, customize solution templates, manage, archive and submit C/C++ source codes.
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+\runsubsection{Smart Grep}
+\descript{| Java \textbullet{} Python}
+Command-line utility that leverages traditional Unix grep command to allow regex matching over a wider range of document formats beyond plain text.
+
+\sectionspace  % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
